@@ -1,0 +1,24 @@
+{
+  "name": "devops.tips",
+  "version": "1.0.0",
+  "description": "Azure DeOps and GitHub tips",
+  "main": "README.md",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polatengin/devops.tips.git"
+  },
+  "keywords": [],
+  "author": "Engin Polat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polatengin/devops.tips/issues"
+  },
+  "homepage": "https://github.com/polatengin/devops.tips#readme",
+  "dependencies": {
+    "vuepress": "1.2.0"
+  }
+}
