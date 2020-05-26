@@ -8,3 +8,23 @@ title: "Home"
   <p>The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using <a href="https://dev.azure.com" target="_blank">Azure DevOps</a> and <a href="https://github.com" target="_blank">GitHub</a>.</p>
   <p><em>- Engin Polat</em></p>
 </div>
+<h1 class="content-subhead">POSTS</h1>
+{% for post in paginator.posts %}
+<section class="post">
+  <header class="post-header">
+    <a href="{{ root_url }}{{ post.url }}" class="post-link"><h2 class="post-title">{{ post.title }}</h2></a>
+    <p class="post-meta">
+      By
+      <img class="post-avatar" src="/assets/authors/{{ post.author.alias }}.jpg">
+      <a href="#" class="post-author">{{ post.author.name }}</a>
+      @
+      [<em>{{ post.date | date_to_long_string }}</em>]
+      under
+      {% for category in post.category %}
+      <a class="post-category post-category-{{category}}" href="#">{{ category }}</a>
+      {% endfor %}
+    </p>
+  </header>
+  <div class="post-description">{{ post.content }}</div>
+</section>
+{% endfor %}
