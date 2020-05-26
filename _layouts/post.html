@@ -22,3 +22,9 @@ layout: default
     {% endfor %}
   </ul>
 {% endunless %}
+{% unless page.tags == empty %}
+  <ul class="tag_box list-inline">
+    <li>Tags:</li>
+    {% assign tags_list = page.tags %}
+  </ul>
+{% endunless %}
