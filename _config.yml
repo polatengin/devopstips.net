@@ -1,0 +1,24 @@
+paginate: 5
+paginate_path: "/page/:num/"
+permalink: /:title/
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md", "Gemfile", "Gemfile.lock", "LICENSE", "assets/images.psd", "run.ps1", "git-clone.ps1", "wordpress.xml", "CNAME", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md", "DockerFile"]
+
+title : DevOps Tips
+tagline: Tips and Tricks about Azure DevOps and GitHub
+author :
+  name : Engin Polat
+  email : enpolat@microsoft.com
+  github : polatengin
+  twitter : polatengin
+
+url: https://devops.tips
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
+
+plugins: ["jekyll-sitemap", "jekyll-paginate"]
