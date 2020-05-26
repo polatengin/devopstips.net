@@ -28,3 +28,16 @@ title: "Home"
   <div class="post-description">{{ post.content }}</div>
 </section>
 {% endfor %}
+<ul class="pager">
+{% if paginator.previous_page %}
+  <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&laquo;</span> Next</a></li>
+{% else %}
+  <li class="previous disabled"><a><span aria-hidden="true">&laquo;</span> Next</a></li>
+{% endif %}
+  <li><span class="page_number">Page: {{ paginator.page }} / {{ paginator.total_pages }}</span></li>
+{% if paginator.next_page %}
+  <li class="next"><a href="{{ paginator.next_page_path }}">Previous <span aria-hidden="true">&raquo;</span></a></li>
+{% else %}
+  <li class="next disabled"><a>Previous <span aria-hidden="true">&raquo;</span></a></li>
+{% endif %}
+</ul>
