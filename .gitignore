@@ -3,3 +3,8 @@ node_modules
 package-lock.json
 
 dist
+
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
