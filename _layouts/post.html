@@ -50,3 +50,17 @@ layout: default
 {% if hasSimilar.size > 0 %}
   </ul>
 {% endif %}
+<nav>
+  <ul class="pager">
+  {% if page.previous %}
+    <li class="previous"><a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
+  {% else %}
+    <li class="previous disabled"><a>&laquo; Önceki</a></li>
+  {% endif %}
+  {% if page.next %}
+    <li class="next"><a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
+  {% else %}
+    <li class="next disabled"><a>Sonraki &raquo;</a>
+  {% endif %}
+  </ul>
+</nav>
