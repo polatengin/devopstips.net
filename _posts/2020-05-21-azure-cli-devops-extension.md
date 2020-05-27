@@ -66,3 +66,5 @@ Commands:
     login            : Set the credential (PAT) to use for a particular organization.
     logout           : Clear the credential for all or a particular organization.
 ```
+
+If you want to take a look at (and hopefully contribute to) _Azure CLI DevOps Extension_ code, it's open-sourced on GitHub with ❤ [Azure DevOps Extension for Azure CLI](https://github.com/Azure/azure-devops-cli-extension){:target="_blank"}
