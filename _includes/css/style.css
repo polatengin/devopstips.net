@@ -86,12 +86,17 @@ a[href^="http://"], a[href^="https://"] {
   text-decoration: none;
 }
 
-.tip {
+blockquote {
   background-color: var(--contrast-background);
-  border-color: var(--link-color);
+  border-color: #f1d514;
   padding: .1rem 1.5rem;
   border-left-width: .5rem;
   border-left-style: solid;
+  margin: 0;
+}
+
+.tip {
+  border-color: var(--link-color);
   margin: 1rem 0;
 }
 
