@@ -11,6 +11,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+.highlight * {
+  font-family: monospace;
+}
 
 html {
   overflow-y:scroll;
