@@ -3,7 +3,7 @@
   --text-color: #444;
   --link-color: #3d92c9;
   --contrast-background: #f3f5f7;
-  --shadow: #87878766;
+  --shadow-color: #87878766;
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 
 .header-nav {
   border-bottom: 1px solid var(--contrast-background);
-  box-shadow: 0 -25px 40px 10px var(--shadow);
+  box-shadow: 0 -25px 40px 10px var(--shadow-color);
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
