@@ -4,6 +4,7 @@
   --link-color: #3d92c9;
   --contrast-background: #f3f5f7;
   --shadow-color: #87878766;
+  --tagline-color: #5f5f5f;
 }
 
 * {
@@ -58,7 +59,7 @@ a[href^="http://"], a[href^="https://"] {
 }
 .brand-tagline {
   font-weight: 300;
-  color: #6188a2;
+  color: var(--tagline-color);
 }
 
 .nav-list {
