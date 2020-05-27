@@ -5,7 +5,6 @@ date: 2020-05-20 11:00
 author:
   name: Engin Polat
   alias: polatengin
-comments: true
 category: [general]
 tags: [devops]
 ---
