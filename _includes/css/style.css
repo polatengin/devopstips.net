@@ -180,7 +180,7 @@ blockquote {
   display: inline;
 }
 .pager .disabled>a, .pager .disabled>a:hover, .pager .disabled>a:focus, .pager .disabled>span {
-  color: var(--shadow);
+  color: var(--shadow-color);
   cursor: not-allowed;
 }
 .pager .previous>a, .pager .previous>span {
@@ -193,7 +193,7 @@ blockquote {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid var(--shadow);
+  border: 1px solid var(--shadow-color);
   border-radius: 15px;
 }
 
