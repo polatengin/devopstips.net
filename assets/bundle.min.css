@@ -1,6 +1,6 @@
 ---
 layout: compress
 ---
-{% include css/style.css %}
 {% include css/styles/default.css %}
 {% include css/styles/xcode.css %}
+{% include css/style.css %}
