@@ -117,6 +117,9 @@ blockquote {
   padding-bottom: 2em;
   border-bottom: 1px solid #eee;
 }
+.post header {
+  margin-bottom: 1em;
+}
 .post-title {
   font-size: 2em;
   color:  var(--text-color);
