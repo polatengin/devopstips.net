@@ -51,6 +51,7 @@ a[href^="http://"], a[href^="https://"] {
 
 .sidebar {
   background: var(--contrast-background);
+  padding: 1em 1.5em;
 }
 
 .brand-title {
