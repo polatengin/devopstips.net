@@ -11,17 +11,6 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-.highlight * {
-  font-family: 'Ubuntu Mono', monospace;
-}
-.hljs-keyword, .hljs-attribute, .hljs-selector-tag, .hljs-meta-keyword, .hljs-doctag, .hljs-name { font-weight: normal; }
-pre { margin: 0; }
-div.highlight {
-  margin-bottom: 1em;
-  border: 1px solid;
-  border-color: #ddd;
-  border-radius: 3px;
-}
 
 html {
   overflow-y:scroll;
