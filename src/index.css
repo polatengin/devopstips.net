@@ -25,3 +25,9 @@ section.article-body div.gatsby-highlight {
 section.article-body div.gatsby-highlight pre {
   @apply bg-gray-100 rounded;
 }
+
+.category-azure-devops {
+  @apply text-white;
+  background-color: #4d85d1;
+}
+
