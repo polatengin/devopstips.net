@@ -35,3 +35,8 @@ section.article-body div.gatsby-highlight pre {
   @apply text-white;
   background-color: #678b8f;
 }
+
+.category-general {
+  @apply text-white;
+  background-color: #509b4f;
+}
