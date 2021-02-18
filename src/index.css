@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section.article-body p {
+  @apply my-4;
+}
+
+section.article-body a {
+  @apply text-blue-500 hover:underline;
+}
+
+section.article-body ul {
+  @apply ml-8 list-disc;
+}
+
+section.article-body blockquote {
+  @apply m-0 px-4 py-1 bg-gray-100 border-l-8 border-yellow-500 rounded;
+}
+
+section.article-body div.gatsby-highlight {
+  @apply rounded;
+}
+
+section.article-body div.gatsby-highlight pre {
+  @apply bg-gray-100 rounded;
+}
