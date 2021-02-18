@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
 
 import { DayIcon, ExternalLinkIcon, NightIcon, TwitterIcon } from "./icons";
 
 export default ({ title, children }) => {
-  const [ theme, setTheme ] = useState(localStorage.getItem("theme"));
+  const [ theme, setTheme ] = useState(undefined);
+
+  useEffect(() => {
+    setTheme(localStorage.getItem("theme"));
+  }, [])
 
   return (
     <div className={`w-screen h-screen overflow-y-scroll overflow-x-hidden ${theme}`}>
