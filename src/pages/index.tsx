@@ -1,4 +1,5 @@
 import React from "react"
+
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -6,12 +7,11 @@ import SEO from "../components/seo"
 import PostItem from "../components/post-item"
 import { ExternalLinkIcon } from "../components/icons"
 
-export default ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+export default ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout>
       <SEO title="All posts" />
       <blockquote className="bg-gray-100 text-gray-700 dark:bg-gray-600 dark:text-white border-l-8 border-blue-500 p-4 rounded">
         <h1 className="text-2xl">Welcome</h1>
@@ -35,11 +35,6 @@ export default ({ data, location }) => {
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
