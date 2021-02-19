@@ -1,14 +1,13 @@
 import React from "react"
+
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export default ({ data }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-
   return (
-    <Layout title={siteTitle}>
+    <Layout>
       <SEO title="About Me" />
       <article className="my-6 text-gray-700 dark:text-gray-100" itemScope itemType="http://schema.org/Article">
         <h2 className="text-3xl">👋 Hi there</h2>
@@ -29,16 +28,11 @@ export default ({ data }) => {
         <p className="my-4">In my spare time, I'm practicing Golang and new programming paradigms.</p>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
