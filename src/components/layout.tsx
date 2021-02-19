@@ -31,7 +31,6 @@ export default ({ children }) => {
             </h1>
             <div className="flex-grow flex justify-end items-center">
               <Link to="/posts" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800">Posts</Link>
-              <Link to="/about-me" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800">About Me</Link>
               <a href="https://github.com/polatengin/devops.tips/issues" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800 flex items-baseline">Issues <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
               <a href="https://github.com/polatengin/devops.tips" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800 flex items-baseline">Contribute <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
               <button className="ml-4 w-16 h-8 hidden md:flex items-center bg-gray-100 dark:bg-gray-800 outline-none focus:outline-none rounded-full shadow-inner" onClick={() => {
@@ -54,7 +53,7 @@ export default ({ children }) => {
           </section>
         </main>
         <footer className="h-10 border-t text-gray-700 dark:text-gray-100">
-          <p className="px-6 max-w-screen-xl mx-auto h-full flex items-center">© {new Date().getFullYear()}, Built with ❤</p>
+          <p className="px-6 max-w-screen-xl mx-auto h-full flex items-center text-sm">© {new Date().getFullYear()}, Built with ❤ by <Link to="/about-me" className="ml-2 hover:text-blue-500">Engin Polat</Link></p>
         </footer>
       </div>
     </div>
