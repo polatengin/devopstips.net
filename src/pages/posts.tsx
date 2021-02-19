@@ -6,12 +6,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostItem from "../components/post-item"
 
-export default ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+export default ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout>
       <SEO title="Posts" />
       <h1 className="text-lg text-gray-600 dark:text-gray-100 mb-3 border-b">All Posts</h1>
       <ol style={{ listStyle: `none` }}>
@@ -29,11 +28,6 @@ export default ({ data, location }) => {
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
