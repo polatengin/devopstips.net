@@ -2,14 +2,14 @@
 path: "what-is-devops"
 title: "What is DevOps!"
 description: "Donovan Brown from Microsoft described 'What is DevOps!'. DevOps is the union of people, process, and products to enable continuous delivery of value to our end users."
-date: 2020-05-20 11:00
-time: 2 mins
+date: "2020-05-20"
+time: "2 mins"
 author:
-  name: Engin Polat
-  alias: polatengin
-  profilePictureUri: https://avatars.githubusercontent.com/u/118744
-category: [general]
-tags: [devops]
+  name: "Engin Polat"
+  alias: "polatengin"
+  profilePictureUri: "https://avatars.githubusercontent.com/u/118744"
+category: [ "general" ]
+tags: [ "devops" ]
 ---
 [Donovan Brown](https://donovanbrown.com) himself described _What is DevOps?_ as the following;
 
