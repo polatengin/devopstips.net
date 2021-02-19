@@ -15,6 +15,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           fields {
             slug
           }
+          frontmatter {
+            path
+            date(formatString: "YYYY-MM-DD")
+          }
         }
       }
     }
@@ -27,7 +31,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
 
     createPage({
-      path: post.fields.slug,
+      path: `${post.frontmatter.path}`,
       component: path.resolve(`./src/components/blog-post-template.tsx`),
       context: {
         id: post.id,
