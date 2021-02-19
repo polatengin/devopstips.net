@@ -23,7 +23,7 @@ export default ({ data }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map((post, index) => {
           return (
-            <li key={post.fields.slug} className={index > 0 ? "border-t" : ""}>
+            <li key={post.frontmatter.path} className={index > 0 ? "border-t" : ""}>
               <PostItem post={post} />
             </li>
           )
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           time
           title
+          path
           author {
             name
             alias
