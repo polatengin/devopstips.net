@@ -1,5 +1,6 @@
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "./layout";
 import SEO from "./seo";
@@ -10,7 +11,7 @@ interface Author {
   name: string;
 }
 
-const AuthorTemplate = ({ pageContext }) => {
+export default ({ pageContext }) => {
   const author: Author = pageContext.author.frontmatter.author;
   const data = useStaticQuery(graphql`
     query {
@@ -59,7 +60,5 @@ const AuthorTemplate = ({ pageContext }) => {
       }) }
       </ul>
     </Layout>
-  )
-}
-
-export default AuthorTemplate
+  );
+};
