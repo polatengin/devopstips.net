@@ -37,7 +37,13 @@
   },
   "homepage": "https://github.com/polatengin/devops.tips#readme",
   "keywords": [
-    "azure", "devops", "tips", "tricks", "containers", "kubernetes", "aks"
+    "azure",
+    "devops",
+    "tips",
+    "tricks",
+    "containers",
+    "kubernetes",
+    "aks"
   ],
   "repository": {
     "type": "git",
