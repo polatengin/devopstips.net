@@ -38,6 +38,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           time
           title
+          path
           author {
             name
             alias
