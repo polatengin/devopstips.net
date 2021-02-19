@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Link, graphql } from "gatsby";
 
 import Layout from "./layout";
@@ -7,12 +8,11 @@ import { GitHubIcon, TimeIcon } from "./icons";
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark;
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
   const { previous, next } = data;
   const fileName = post.fileAbsolutePath.replace(/^.*(\\|\/|\:)/, '');
 
   return (
-    <Layout title={ siteTitle }>
+    <Layout>
       <SEO title={ post.frontmatter.title } description={ post.frontmatter.description || post.description } />
       <article className="text-gray-700 dark:text-gray-50 border-b pb-4" itemScope itemType="http://schema.org/Article" >
         <header className="mb-4">
@@ -44,11 +44,6 @@ export const pageQuery = graphql`
     $previousPostId: String
     $nextPostId: String
   ) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
