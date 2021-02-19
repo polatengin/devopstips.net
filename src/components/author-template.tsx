@@ -36,7 +36,6 @@ const AuthorTemplate = ({ pageContext }) => {
       }
     }
   `);
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes.map(post => {
     if (post.frontmatter.author.alias === author.alias)
       return post;
