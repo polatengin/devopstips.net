@@ -24,9 +24,9 @@ export default ({ children }) => {
   return (
     <div className={`w-screen h-screen overflow-y-scroll overflow-x-hidden ${theme}`}>
       <div className="dark:bg-gray-700">
-        <header className="px-1 md:px-6 h-20 border-b text-gray-700 dark:text-white shadow-sm">
+        <header className="px-1 md:px-6 py-2 h-26 md:h-20 border-b text-gray-700 dark:text-white shadow-sm">
           <div className="max-w-screen-xl mx-auto h-full flex flex-col md:flex-row items-center">
-            <h1 className="text-3xl mt-2 md:mt-0">
+            <h1 className="text-2xl lg:text-3xl my-2 md:my-0">
               <Link to="/" className="flex items-center"><MainLogoIcon className="w-10 h-10 inline mr-1" /> { site.siteMetadata.title }</Link>
             </h1>
             <div className="flex-grow flex justify-end items-center">
