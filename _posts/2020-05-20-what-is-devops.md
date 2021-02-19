@@ -1,6 +1,5 @@
 ---
 path: "what-is-devops"
-layout: post
 title: "What is DevOps!"
 description: "Donovan Brown from Microsoft described 'What is DevOps!'. DevOps is the union of people, process, and products to enable continuous delivery of value to our end users."
 date: 2020-05-20 11:00
