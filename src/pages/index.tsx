@@ -8,7 +8,7 @@ import PostItem from "../components/post-item"
 import { ExternalLinkIcon } from "../components/icons"
 
 export default ({ data }) => {
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allMarkdownRemark.nodes;
 
   return (
     <Layout>
@@ -30,8 +30,8 @@ export default ({ data }) => {
         })}
       </ol>
     </Layout>
-  )
-}
+  );
+};
 
 export const pageQuery = graphql`
   query {
