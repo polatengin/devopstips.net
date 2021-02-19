@@ -2,7 +2,7 @@
 path: "azure-cli-devops-extension"
 title: "Azure CLI DevOps Extension"
 description: "Azure Command Line Interface (Azure CLI) is a set of commands to manage resources on Azure platform. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation."
-date: "2020-05-21"
+date: "2021-02-19"
 time: "2 mins"
 author:
   name: "Engin Polat"
