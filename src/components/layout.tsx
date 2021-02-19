@@ -1,14 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
 
-import { DayIcon, ExternalLinkIcon, NightIcon, TwitterIcon } from "./icons";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
-export default ({ title, children }) => {
+import { DayIcon, ExternalLinkIcon, MainLogoIcon, NightIcon, TwitterIcon } from "./icons";
+
+export default ({ children }) => {
   const [ theme, setTheme ] = useState(undefined);
 
   useEffect(() => {
     setTheme(localStorage.getItem("theme"));
   }, [])
+
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
 
   return (
     <div className={`w-screen h-screen overflow-y-scroll overflow-x-hidden ${theme}`}>
@@ -16,7 +27,7 @@ export default ({ title, children }) => {
         <header className="px-1 md:px-6 h-20 border-b text-gray-700 dark:text-white shadow-sm">
           <div className="max-w-screen-xl mx-auto h-full flex flex-col md:flex-row items-center">
             <h1 className="text-3xl mt-2 md:mt-0">
-              <Link to="/" className="flex items-center"><img src="/favicon.svg" className="w-10 h-10 inline mr-1" /> {title}</Link>
+              <Link to="/" className="flex items-center"><MainLogoIcon className="w-10 h-10 inline mr-1" /> { site.siteMetadata.title }</Link>
             </h1>
             <div className="flex-grow flex justify-end items-center">
               <Link to="/posts" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800">Posts</Link>
