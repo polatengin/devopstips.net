@@ -42,7 +42,7 @@ const AuthorTemplate = ({ pageContext }) => {
   });
 
   return (
-    <Layout title={siteTitle}>
+    <Layout>
       <SEO title={ author.name } description={ `${author.name} posts` } />
       <article className="text-gray-700 dark:text-gray-50 border-b pb-4" itemScope itemType="http://schema.org/Author" >
         <header className="mb-4">
