@@ -14,11 +14,6 @@ const AuthorTemplate = ({ pageContext }) => {
   const author: Author = pageContext.author.frontmatter.author;
   const data = useStaticQuery(graphql`
     query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
       allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
         nodes {
           fields {
