@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { graphql, Link, useStaticQuery } from "gatsby";
 
-import { DayIcon, ExternalLinkIcon, MainLogoIcon, NightIcon, TwitterIcon } from "./icons";
+import { DayIcon, ExternalLinkIcon, MainLogoIcon, NightIcon, RSSIcon, TwitterIcon } from "./icons";
 
 export default ({ children }) => {
   const [ theme, setTheme ] = useState(undefined);
