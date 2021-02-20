@@ -40,6 +40,7 @@ const BlogPostTemplate = ({ data, location }) => {
         </ul>
       </nav>
       <CommentCount config={disqusConfig} placeholder={''} />
+      <Disqus config={disqusConfig} />
     </Layout>
   )
 }
