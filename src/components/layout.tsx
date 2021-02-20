@@ -43,13 +43,13 @@ export default ({ children }) => {
           </div>
         </header>
         <main className="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row">
-          <aside className="w-screen md:w-56 flex-none text-gray-700 dark:text-white text-center px-6 md:px-3 py-6 pr-3 border-t md:border-t-0 md:border-r">
+          <aside className="w-screen md:w-56 flex-none text-gray-700 dark:text-white px-3 md:px-6 py-6 border-t md:border-t-0 md:border-r">
             <h1 className="text-2xl mb-6">DevOps Tips and Tricks</h1>
             <h2 className="text-lg mt-6">Tips and Tricks about Azure DevOps and GitHub</h2>
             <p><a href="https://twitter.com/devops_tips" className="inline-flex items-center mt-6" target="_blank"><TwitterIcon className="w-6 h-6 text-blue-500 inline mr-2" /> @devops_tips</a></p>
             <p><a href="/index.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
           </aside>
-          <section className="flex-1 m-6 ml-4 md:ml-6 xl:mr-0">
+          <section className="flex-1 m-4 md:mt-6 ml-4 md:ml-6 xl:mr-0">
             {children}
           </section>
         </main>
