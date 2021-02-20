@@ -21,7 +21,7 @@ const BlogPostTemplate = ({ data, location }) => {
   return (
     <Layout>
       <SEO title={ post.frontmatter.title } description={ post.frontmatter.description || post.description } />
-      <article className="text-gray-700 dark:text-gray-50 border-b pb-4" itemScope itemType="http://schema.org/Article" >
+      <article className="text-gray-700 dark:text-gray-50 pb-4" itemScope itemType="http://schema.org/Article" >
         <header className="mb-4">
           <h1 itemProp="headline" className="text-3xl">{ post.frontmatter.title }</h1>
           <p className="my-4 italic flex items-center"><TimeIcon className="w-5 h-5 inline mr-1" /> ~ { post.frontmatter.time } read · published @ { post.frontmatter.date }</p>
