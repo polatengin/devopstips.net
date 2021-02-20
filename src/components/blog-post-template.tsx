@@ -13,7 +13,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data;
   const fileName = post.fileAbsolutePath.replace(/^.*(\\|\/|\:)/, '');
   const disqusConfig = {
-    url: `${location}`,
+    url: `${location.href}`,
     identifier: post.id,
     title: post.title,
   };
