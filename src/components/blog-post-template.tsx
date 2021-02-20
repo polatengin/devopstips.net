@@ -35,7 +35,7 @@ const BlogPostTemplate = ({ data, location }) => {
             { previous && <Link className="hover:text-blue-500" to={ `/${ previous.frontmatter.path }` } rel="prev">← { previous.frontmatter.title }</Link> }
           </li>
           <li>
-            { next && <Link to={ `/${ next.frontmatter.path }` } rel="next">{ next.frontmatter.title } →</Link> }
+            { next && <Link className="hover:text-blue-500" to={ `/${ next.frontmatter.path }` } rel="next">{ next.frontmatter.title } →</Link> }
           </li>
         </ul>
       </nav>
