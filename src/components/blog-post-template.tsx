@@ -32,7 +32,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <nav className="text-gray-700 dark:text-gray-50 border-t border-b py-4 mb-4">
         <ul className="flex flex-wrap justify-between">
           <li>
-            { previous && <Link to={ `/${ previous.frontmatter.path }` } rel="prev">← { previous.frontmatter.title }</Link> }
+            { previous && <Link className="hover:text-blue-500" to={ `/${ previous.frontmatter.path }` } rel="prev">← { previous.frontmatter.title }</Link> }
           </li>
           <li>
             { next && <Link to={ `/${ next.frontmatter.path }` } rel="next">{ next.frontmatter.title } →</Link> }
