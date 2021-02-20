@@ -29,7 +29,7 @@ const BlogPostTemplate = ({ data, location }) => {
         </header>
         <section className="article-body" dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
       </article>
-      <nav className="text-gray-700 dark:text-gray-50 mt-4">
+      <nav className="text-gray-700 dark:text-gray-50 my-4">
         <ul className="flex flex-wrap justify-between">
           <li>
             { previous && <Link to={ `/${ previous.frontmatter.path }` } rel="prev">← { previous.frontmatter.title }</Link> }
