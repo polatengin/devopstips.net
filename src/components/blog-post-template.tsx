@@ -8,10 +8,15 @@ import Layout from "./layout";
 import SEO from "./seo";
 import { GitHubIcon, TimeIcon } from "./icons";
 
-const BlogPostTemplate = ({ data }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
   const { previous, next } = data;
   const fileName = post.fileAbsolutePath.replace(/^.*(\\|\/|\:)/, '');
+  const disqusConfig = {
+    url: `${location}`,
+    identifier: post.id,
+    title: post.title,
+  };
 
   return (
     <Layout>
