@@ -5,7 +5,7 @@ module.exports = {
       name: `Engin Polat`,
       summary: `Senior Software Engineer @ Microsoft`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `DevOps Tips and Tricks`,
     siteUrl: `https://devops-tips.netlify.app/`,
     social: {
       twitter: `polatengin`,
