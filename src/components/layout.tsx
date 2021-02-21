@@ -48,6 +48,7 @@ export default ({ children }) => {
             <h2 className="text-lg mt-6">Tips and Tricks about Azure DevOps and GitHub</h2>
             <p><a href="https://twitter.com/devops_tips" className="inline-flex items-center mt-6" target="_blank"><TwitterIcon className="w-6 h-6 text-blue-500 inline mr-2" /> @devops_tips</a></p>
             <p><a href="/index.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
+            <p><a className="twitter-timeline" data-width="220" data-height="400" data-theme="dark" href="https://twitter.com/devops_tips?ref_src=twsrc%5Etfw">Tweets by devops_tips</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script></p>
           </aside>
           <section className="flex-1 m-4 md:mt-6 ml-4 md:ml-6 xl:mr-0">
             {children}
