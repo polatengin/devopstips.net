@@ -27,7 +27,7 @@ export default ({ children }) => {
         <header className="px-1 md:px-6 py-2 h-26 md:h-20 border-b text-gray-700 dark:text-white shadow-sm">
           <div className="max-w-screen-xl mx-auto h-full flex flex-col md:flex-row items-center">
             <h1 className="text-2xl lg:text-3xl my-2 md:my-0">
-              <Link to="/" className="flex items-center"><MainLogoIcon className="w-10 h-10 inline mr-1" /> { site.siteMetadata.title }</Link>
+              <Link to="/" className="flex items-center"><img src="/favicon.svg" className="w-10 h-10 inline mr-1" />{ site.siteMetadata.title }</Link>
             </h1>
             <div className="flex-grow flex justify-end items-center">
               <Link to="/posts" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-800">Posts</Link>
@@ -53,8 +53,14 @@ export default ({ children }) => {
             {children}
           </section>
         </main>
-        <footer className="h-10 border-t text-gray-700 dark:text-gray-100">
-          <p className="px-6 max-w-screen-xl mx-auto h-full flex items-center text-sm">© {new Date().getFullYear()}, Built with ❤ by <Link to="/about-me" className="ml-2 hover:text-blue-500">Engin Polat</Link></p>
+        <footer className="h-10 flex items-center border-t text-gray-700 dark:text-gray-100">
+          <p className="pl-6 max-w-screen h-full flex flex-grow items-center text-sm">© {new Date().getFullYear()}, Built with ❤ by <Link to="/about-me" className="ml-2 hover:text-blue-500">Engin Polat</Link></p>
+          <button className="w-8 h-8 mr-6 inline md:hidden items-center bg-gray-100 dark:bg-gray-800 outline-none focus:outline-none rounded-full shadow-inner" onClick={() => {
+            localStorage.setItem("theme", theme !== "dark" ? "dark" : "light" );
+            setTheme(localStorage.getItem("theme"));
+          }}>
+            { theme !== "dark" ? <DayIcon className="w-4 h-4 ml-2" /> : <NightIcon className="w-4 h-4 ml-2" /> }
+          </button>
         </footer>
       </div>
     </div>

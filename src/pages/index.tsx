@@ -12,7 +12,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="All posts" />
+      <SEO title="Home" />
       <blockquote className="bg-gray-100 text-gray-700 dark:bg-gray-600 dark:text-white border-l-8 border-blue-500 p-4 rounded">
         <h1 className="text-2xl">Welcome</h1>
         <p className="mt-3">Welcome to <em>DevOps Tips and Tricks</em>, this site is a collection of tips and tricks that <em>"try to"</em> cover the most loved DevOps platforms, <em>a.k.a.</em> <a className="text-blue-500 inline-flex items-baseline" href="https://dev.azure.com" target="_blank">Azure DevOps <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a> and <a className="text-blue-500  inline-flex items-baseline" href="https://github.com" target="_blank">GitHub <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a> 😊.</p>

@@ -1,71 +1,14 @@
 import React, { FunctionComponent } from "react";
 
+import MainLogoSvg from "../../_static/logo.svg";
+
 interface IconProps {
   className?: string;
 }
 
 export const MainLogoIcon: FunctionComponent<IconProps> = (props: IconProps) => {
   return (
-    <svg width="40" height="40" viewBox="0 0 40 40" className={props.className}>
-      <linearGradient id="a" x1="6.146" x2="35.593" y1="13.75" y2="13.75" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset="1" stopColor="#2ddaff"/>
-      </linearGradient>
-      <path fill="url(#a)" d="M30 25.1V30l-10 5-5-2.5v-15l5 2.6V30l10-4.9z"/>
-      <linearGradient id="b" x1="36.858" x2="2.07" y1="6.869" y2="15.751" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset="1" stopColor="#2ddaff"/>
-      </linearGradient>
-      <path fill="url(#b)" d="M30 30v5l-10 5-10-5V15.1l5 2.4v15l5 2.5 10-5z"/>
-      <linearGradient id="c" x1="17.115" x2="29.595" y1="8.043" y2="14.007" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset="1" stopColor="#2ddaff"/>
-      </linearGradient>
-      <path fill="url(#c)" d="M20 30l10-3.5v-1.4L20 30z"/>
-      <linearGradient id="d" x1="23.41" x2="32.129" y1="37.523" y2="14.272" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset=".59" stopColor="#9d15f8"/>
-        <stop offset="1" stopColor="#ff4cf9"/>
-      </linearGradient>
-      <path fill="url(#d)" d="M40 10.1v10l-10 5L20 30v-4.9l.1-.1L35 17.6v-5l-10-5 .2-.2L30 5l10 5.1z"/>
-      <linearGradient id="e" x1="31.3" x2="21.047" y1="13.151" y2="34.736" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset=".59" stopColor="#9d15f8"/>
-        <stop offset="1" stopColor="#ff4cf9"/>
-      </linearGradient>
-      <path fill="url(#e)" d="M35 12.6v5l-15 7.5v-5l5-2.5 5-2.5-10-5 5-2.5 10 5z"/>
-      <linearGradient id="f" x1="31.889" x2="41.965" y1="15.421" y2="7.91" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0049e7"/>
-        <stop offset=".59" stopColor="#9d15f8"/>
-        <stop offset="1" stopColor="#ff4cf9"/>
-      </linearGradient>
-      <path fill="url(#f)" d="M40 24.3v5.6l-5.7 2.8v-5.6l5.7-2.8z"/>
-      <g>
-        <linearGradient id="g" x1="21.189" x2="6.866" y1="34.644" y2="12.093" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stopColor="#ff057e"/>
-          <stop offset="1" stopColor="#fc0"/>
-        </linearGradient>
-        <path fill="url(#g)" d="M25 17.6l-5 2.5-5-2.6-5-2.4v10l-5-2.5v-10l5-2.5 10 5 5 2.5z"/>
-        <linearGradient id="h" x1="-3.517" x2="25.191" y1="11.5" y2="36.151" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stopColor="#ff057e"/>
-          <stop offset="1" stopColor="#fc0"/>
-        </linearGradient>
-        <path fill="url(#h)" d="M30 15.1l-5 2.5-5-2.5-10-5-5 2.5v10l-.2-.1L0 20.1v-10L10 5l10 5.1 10 5z"/>
-        <g>
-          <linearGradient id="i" x1="20" x2="20" y1="32.633" y2="41.273" gradientTransform="matrix(1 0 0 -1 0 40)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stopColor="#ff057e"/>
-            <stop offset="1" stopColor="#fc0"/>
-          </linearGradient>
-          <path fill="url(#i)" d="M20 5.9L14 3l6-3 6 3-6 2.9z"/>
-        </g>
-      </g>
-      <linearGradient id="j" x1="3.93" x2="14.006" y1="15.421" y2="7.91" gradientTransform="rotate(180 6.02 20)" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stopColor="#0541c5"/>
-        <stop offset=".59" stopColor="#199bf5"/>
-        <stop offset="1" stopColor="#88f4fe"/>
-      </linearGradient>
-      <path fill="url(#j)" d="M5.7 27.1v5.6L0 29.9v-5.6l5.7 2.8z"/>
-    </svg>
+    <img src={MainLogoSvg} width="40" height="40" className={props.className} />
   );
 };
 

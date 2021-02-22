@@ -6,6 +6,14 @@ section.article-body h2 {
   @apply text-2xl;
 }
 
+section.article-body h3 {
+  @apply text-xl;
+}
+
+section.article-body h4 {
+  @apply text-lg;
+}
+
 section.article-body p {
   @apply my-4;
 }
