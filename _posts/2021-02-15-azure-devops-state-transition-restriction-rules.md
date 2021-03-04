@@ -2,7 +2,7 @@
 path: "azure-devops-state-transition-restriction-rules"
 title: "Azure DevOps - State Transition Restriction Rules"
 description: "Since the release of Sprint #172, on Azure DevOps, it's possible to create rules to restrict state transition of Work Items on Azure DevOps Boards.<br /><br />With this new feature, it's possible to restrict work items from being moved from one state to another directly. For example, you can restrict Bugs transitioning from New to Resolved directly, instead, they must go from New to Active, then they can go to Resolved."
-date: "2021-02-20"
+date: "2021-02-15"
 time: "6 mins"
 author:
   name: "Engin Polat"
