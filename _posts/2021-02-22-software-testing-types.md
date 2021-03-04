@@ -2,7 +2,7 @@
 path: "software-testing-types"
 title: "Software Testing Types"
 description: "There are different types of tests that we can use and implement in the CI/CD pipelines to make sure that changes to our code are working as expected"
-date: "2021-02-12"
+date: "2021-02-22"
 time: "4 mins"
 author:
   name: "Engin Polat"
