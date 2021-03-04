@@ -9,7 +9,7 @@ export default ({ post }) => {
         <Link to={ `/${ post.frontmatter.path }` } className="hover:underline text-3xl">{ post.frontmatter.title }</Link>
         <p className="mt-3 text-xs text-gray-500 flex items-center">
           by
-          <img className="inline rounded-full bg-gray-500 mx-1 w-4 h-4" src={post.frontmatter.author.profilePictureUri} />
+          <img width="16" height="16" className="inline rounded-full bg-gray-500 mx-1 w-4 h-4" alt={ post.frontmatter.author.name } src={ post.frontmatter.author.profilePictureUri } />
           <Link to={`/author/${post.frontmatter.author.alias}`} className="mr-1 text-blue-500">{ post.frontmatter.author.name }</Link>
           @ [<em>{post.frontmatter.date}</em>]
           <span className="mx-1">~ { post.frontmatter.time } read</span>
