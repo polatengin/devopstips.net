@@ -69,4 +69,8 @@ section.article-body div.gatsby-highlight pre {
   @apply text-white;
   background-color: #eb502b;
 }
+
+.category-scenario {
+  @apply text-white;
+  background-color: #552beb;
 }
