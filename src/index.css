@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+section.article-body h1 {
+  @apply text-3xl;
+}
+
 section.article-body h2 {
   @apply text-2xl;
 }
