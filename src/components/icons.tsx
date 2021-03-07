@@ -12,7 +12,6 @@ export const MainLogoIcon: FunctionComponent<IconProps> = (props: IconProps) => 
   );
 };
 
-
 export const ExternalLinkIcon: FunctionComponent<IconProps> = (props: IconProps) => {
   return (
     <svg fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" className={props.className}>
@@ -65,6 +64,15 @@ export const TimeIcon: FunctionComponent<IconProps> = (props: IconProps) => {
   return (
     <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={props.className}>
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+  );
+};
+
+export const FacebookLogoIcon: FunctionComponent<IconProps> = (props: IconProps) => {
+  return (
+    <svg width="24" height="24" fill="currentColor" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid" className={props.className}>
+      <path d="M241.871,256.001 C249.673,256.001 256,249.675 256,241.872 L256,14.129 C256,6.325 249.673,0 241.871,0 L14.129,0 C6.324,0 0,6.325 0,14.129 L0,241.872 C0,249.675 6.324,256.001 14.129,256.001 L241.871,256.001" fill="#395185"></path>
+      <path d="M176.635,256.001 L176.635,156.864 L209.912,156.864 L214.894,118.229 L176.635,118.229 L176.635,93.561 C176.635,82.375 179.742,74.752 195.783,74.752 L216.242,74.743 L216.242,40.188 C212.702,39.717 200.558,38.665 186.43,38.665 C156.932,38.665 136.738,56.67 136.738,89.736 L136.738,118.229 L103.376,118.229 L103.376,156.864 L136.738,156.864 L136.738,256.001 L176.635,256.001" fill="#FFFFFF"></path>
     </svg>
   );
 };
