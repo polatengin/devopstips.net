@@ -35,7 +35,7 @@ section.article-body blockquote {
 }
 
 section.article-body div.gatsby-highlight {
-  @apply rounded;
+  @apply rounded text-xs;
 }
 
 section.article-body div.gatsby-highlight pre {
