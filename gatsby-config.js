@@ -8,7 +8,8 @@ module.exports = {
     description: `DevOps Tips and Tricks`,
     siteUrl: `https://devops-tips.netlify.app/`,
     social: {
-      twitter: `polatengin`,
+      url: 'https://devopstips.net',
+      twitter: `devops_tips`,
     },
   },
   plugins: [
