@@ -42,6 +42,10 @@ section.article-body div.gatsby-highlight pre {
   @apply bg-gray-100 rounded;
 }
 
+:not(pre) > code[class*="language-"] {
+  @apply text-sm rounded bg-gray-100 px-2 py-1 !important;
+}
+
 .header-link.before {
   top: 0.4em;
 }
