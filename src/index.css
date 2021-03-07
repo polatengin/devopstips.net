@@ -42,6 +42,10 @@ section.article-body div.gatsby-highlight pre {
   @apply bg-gray-100 rounded;
 }
 
+.header-link.before {
+  top: 0.4em;
+}
+
 .category-azure-devops {
   @apply text-white;
   background-color: #4d85d1;
