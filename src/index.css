@@ -67,5 +67,6 @@ section.article-body div.gatsby-highlight pre {
 
 .category-how-to {
   @apply text-white;
-  background-color: #EB502B;
+  background-color: #eb502b;
+}
 }
