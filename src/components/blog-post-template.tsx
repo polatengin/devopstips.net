@@ -6,6 +6,7 @@ import { Disqus } from 'gatsby-plugin-disqus';
 
 import Layout from "./layout";
 import SEO from "./seo";
+import { Share } from "./share";
 import { GitHubIcon, TimeIcon } from "./icons";
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -29,6 +30,7 @@ const BlogPostTemplate = ({ data, location }) => {
         </header>
         <section className="article-body" dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
       </article>
+      <Share socialConfig={{ config: { url: location.href, title: post.frontmatter.title } }} tags={post.frontmatter.tags} />
       <nav className="text-gray-700 dark:text-gray-50 border-t border-b py-4 mb-4">
         <ul className="flex flex-wrap justify-between">
           <li>
