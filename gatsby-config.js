@@ -95,5 +95,6 @@ module.exports = {
         shortname: `devopstips`
       }
     },
+    `gatsby-plugin-remove-serviceworker`,
   ],
 };
