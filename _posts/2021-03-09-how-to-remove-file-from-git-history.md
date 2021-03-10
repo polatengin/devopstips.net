@@ -8,7 +8,7 @@ author:
   name: "Engin Polat"
   alias: "polatengin"
   profilePictureUri: "https://avatars.githubusercontent.com/u/118744"
-category: [ "how-to", "git" ]
+category: [ "how-to" ]
 tags: [ "git", "how-to", "remove", "file", "history" ]
 ---
 When we commit a file to a git system (such as, [Azure DevOps](https://dev.azure.com/) or [GitHub](https://github.com)) it shows up in the folder structure of the repo.
