@@ -1,7 +1,7 @@
 ---
 path: "how-to-remove-file-from-git-history"
 title: "How to remove file from git history"
-description: ""
+description: "When we commit a file to a git system (such as, Azure DevOps or GitHub) it shows up in the folder structure of the repo.<br /><br />And also, there is a record created in the underlying history structure.<br /><br />We can delete the file that needs to be confidential, after we accidentally commit it."
 date: "2021-03-09"
 time: "6 mins"
 author:
