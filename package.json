@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "autoprefixer": "10.2.5",
-    "gatsby": "3.0.3",
-    "gatsby-plugin-disqus": "1.2.2",
+    "gatsby": "3.0.4",
     "gatsby-plugin-feed": "3.0.0",
+    "gatsby-plugin-gitalk": "1.2.1",
     "gatsby-plugin-google-gtag": "3.0.0",
     "gatsby-plugin-image": "1.0.0",
     "gatsby-plugin-manifest": "3.0.0",
