@@ -25,6 +25,7 @@ To delete a file from the git system, we can use the following command;
 
 ```bash
 FILE_PATH_AND_NAME="src/backend/.env"
+
 git rm -rf --cached --ignore-unmatch ${FILE_PATH_AND_NAME}
 ```
 
@@ -36,7 +37,7 @@ git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch ${FILE_PA
 
 This command will delete the file from the **commit history** and re-write the commit history without it.
 
-> It may take so long to complete, regarding the size of the commit history of the repo. To give a scale, it may need almost a full hour if you have 10K commits and wanted to remove a file from one of the first commits.
+> _It may take so long to complete, regarding the size of the commit history of the repo. To give a scale, it may need almost a full hour if you have 10K commits and wanted to remove a file from one of the first commits._
 
 After the command finishes, we just need to commit the changed history, by executing the following command;
 
