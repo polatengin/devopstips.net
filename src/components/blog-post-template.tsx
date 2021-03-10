@@ -2,8 +2,6 @@ import React from "react";
 
 import { Link, graphql } from "gatsby";
 
-import Gitalk from 'gatsby-plugin-gitalk'
-
 import Layout from "./layout";
 import SEO from "./seo";
 import { Share } from "./share";
@@ -13,10 +11,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
   const { previous, next } = data;
   const fileName = post.fileAbsolutePath.replace(/^.*(\\|\/|\:)/, '');
-  const gitalkConfig = {
-    id: post.slug || post.id,
-    title: post.title,
-  }
 
   return (
     <Layout>
@@ -40,7 +34,6 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
-      <Gitalk options={gitalkConfig} />
     </Layout>
   )
 }
