@@ -6,7 +6,7 @@ module.exports = {
       summary: `Senior Software Engineer @ Microsoft`,
     },
     description: `DevOps Tips and Tricks`,
-    siteUrl: `https://devops-tips.netlify.app/`,
+    siteUrl: `https://devopstips.net`,
     social: {
       url: 'https://devopstips.net',
       twitter: `devops_tips`,
