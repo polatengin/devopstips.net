@@ -38,7 +38,6 @@
     "tailwindcss": "2.0.3"
   },
   "devDependencies": {
-    "@netlify/plugin-sitemap": "0.7.0",
     "prettier": "2.2.1"
   },
   "homepage": "https://github.com/polatengin/devops.tips#readme",
