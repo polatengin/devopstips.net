@@ -90,9 +90,16 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-disqus`,
+      resolve: `gatsby-plugin-gitalk`,
       options: {
-        shortname: `devopstips`
+        config: {
+          clientID: '016220a57a300db3f2d4',
+          clientSecret: '6cbc656b37bf445cf454d14eade9a3016abaa217',
+          owner: 'polatengin',
+          repo: 'devops.tips',
+          admin: ['polatengin'],
+          distractionFreeMode: false
+        }
       }
     },
     `gatsby-plugin-remove-serviceworker`,
