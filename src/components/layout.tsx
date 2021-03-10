@@ -47,7 +47,7 @@ export default ({ children }) => {
             <h1 className="text-2xl mb-6">DevOps Tips and Tricks</h1>
             <h2 className="text-lg mt-6">Tips and Tricks about Azure DevOps and GitHub</h2>
             <p><a href="https://twitter.com/devops_tips" className="inline-flex items-center mt-6" target="_blank" rel="noreferrer"><TwitterIcon className="w-6 h-6 text-blue-500 inline mr-2" /> @devops_tips</a></p>
-            <p><a href="/index.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
+            <p><a href="/sitemap.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
           </aside>
           <section className="flex-1 m-4 md:mt-6 ml-4 md:ml-6 xl:mr-0">
             {children}
