@@ -47,7 +47,7 @@ section.article-body div.gatsby-highlight pre {
 }
 
 .header-link.before {
-  top: 0.4em;
+  top: 0.4em !important;
 }
 
 .category-azure-devops {
