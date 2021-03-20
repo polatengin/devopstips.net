@@ -13,10 +13,6 @@ export default ({ post }) => {
           <Link to={`/author/${post.frontmatter.author.alias}`} className="mr-1 text-blue-500">{ post.frontmatter.author.name }</Link>
           @ [<em>{post.frontmatter.date}</em>]
           <span className="mx-1">~ { post.frontmatter.time } read</span>
-          · under
-          { post.frontmatter.category.map((category, index) => {
-            return <a key={ index } className={`text-xs p-1 ml-1 category-${ category }`} href="#">{ category }</a>;
-          }) }
         </p>
       </header>
       <section>
