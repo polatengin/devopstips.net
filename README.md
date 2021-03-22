@@ -15,3 +15,5 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/polatengin/devops.tips)
 
 ![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fdevopstips.net)
+
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787576626-2de2310daed8f8bed6e03c1c)
