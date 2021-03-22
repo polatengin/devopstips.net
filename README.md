@@ -11,3 +11,5 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/polatengin/devops.tips)
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/polatengin/devops.tips)
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/polatengin/devops.tips)
