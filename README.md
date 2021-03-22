@@ -9,3 +9,5 @@
 ![Netlify](https://img.shields.io/netlify/77f165dd-c2b0-4bc6-9627-9d47fb9c0076)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/polatengin/devops.tips)
+
+![Lines of code](https://img.shields.io/tokei/lines/github/polatengin/devops.tips)
