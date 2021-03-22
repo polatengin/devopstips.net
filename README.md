@@ -19,3 +19,5 @@
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787576626-2de2310daed8f8bed6e03c1c)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/polatengin/devops.tips)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/polatengin/devops.tips)
