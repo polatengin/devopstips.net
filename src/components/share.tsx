@@ -13,7 +13,7 @@ import {
 import { FacebookLogoIcon, TwitterIcon, LinkedInLogoIcon, RedditLogoIcon, WhatsAppLogoIcon } from './icons';
 
 export const Share = ({ socialConfig, tags }) => (
-  <div className="flex justify-between border-t py-4 text-gray-700">
+  <div className="flex justify-between border-t py-4 text-gray-800 dark:text-gray-50">
     <div className="border border-gray-400 rounded-full py-1 px-3 flex items-stretch">
       <FacebookShareButton url={socialConfig.config.url} className="flex items-center outline-none focus:outline-none">
         <FacebookLogoIcon className="w-4 h-4 mr-1" />
