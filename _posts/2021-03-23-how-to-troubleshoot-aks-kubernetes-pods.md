@@ -1,7 +1,7 @@
 ---
 path: "how-to-troubleshoot-aks-kubernetes-pods"
 title: "How to Troubleshoot AKS (Kubernetes) Pods"
-description: "Guidelines' are always help people to ensure if they made necessary checks before going deep dive.<br />If your team faces the same issue more than several times, it's good to keep it recorded. So, next time, your response time will be significantly shorter. That leads happy customers 🥳<br />In this post you can find a guideline to determine the underlying issue when there is an issue with a pod."
+description: "Guidelines' are always help people to ensure if they made necessary checks before going deep dive.<br /><br />If your team faces the same issue more than several times, it's good to keep it recorded. So, next time, your response time will be significantly shorter. That leads happy customers 🥳<br /><br />In this post you can find a guideline to determine the underlying issue when there is an issue with a pod."
 date: "2021-03-23"
 time: "11 mins"
 author:
