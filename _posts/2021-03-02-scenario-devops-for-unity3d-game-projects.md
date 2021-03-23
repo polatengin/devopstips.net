@@ -1,6 +1,6 @@
 ---
 path: "scenario-devops-for-unity3d-game-projects"
-title: "Scenario : DevOps for Unity3D Game Projects"
+title: "Scenario : DevOps for Unity3D game projects"
 description: "Game projects usually consist of a combination of more than one piece. Such as, game itself, a backend, a messaging platform, notification system, etc.<br /><br />In this scenario, we'll create a game project with a .Net 5.0 backend and a Unity3D game project."
 date: "2021-03-02"
 time: "20 mins"
