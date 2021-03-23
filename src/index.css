@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+section.article-body table {
+  @apply border-collapse border;
+}
+
+section.article-body table th, section.article-body table td {
+  @apply border px-4 py-2;
+}
+
+section.article-body table thead tr {
+  @apply bg-gray-100 dark:bg-gray-900
+}
+
 section.article-body h1 {
   @apply text-3xl;
 }
