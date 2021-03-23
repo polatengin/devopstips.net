@@ -13,13 +13,13 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <blockquote className="bg-gray-100 text-gray-700 dark:bg-gray-600 dark:text-white border-l-8 border-blue-500 p-4 rounded">
+      <blockquote className="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-white border-l-8 border-blue-500 p-4 rounded">
         <h1 className="text-2xl">Welcome</h1>
         <p className="mt-3">Welcome to <em>DevOps Tips and Tricks</em>, this site is a collection of tips and tricks that <em>"try to"</em> cover the most loved DevOps platforms, <em>a.k.a.</em> <a className="text-blue-500 inline-flex items-baseline" href="https://dev.azure.com" target="_blank" rel="noreferrer">Azure DevOps <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a> and <a className="text-blue-500  inline-flex items-baseline" href="https://github.com" target="_blank" rel="noreferrer">GitHub <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a> 😊.</p>
         <p className="mt-3">The tips, comparisons, benchmarks and posts you'll find here are based on real-world scenarios that I've encountered (<em>along with the community</em>) while using <a className="text-blue-500 inline-flex items-baseline" href="https://dev.azure.com" target="_blank" rel="noreferrer">Azure DevOps <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a> and <a className="text-blue-500  inline-flex items-baseline" href="https://github.com" target="_blank" rel="noreferrer">GitHub <ExternalLinkIcon className="ml-1 inline w-3 h-3" /></a>.</p>
         <p className="mt-3"><em>- Engin Polat</em></p>
       </blockquote>
-      <h1 className="text-lg text-gray-600 dark:text-gray-100 mt-6 mb-3 border-b">Recent Posts</h1>
+      <h1 className="text-lg text-gray-700 dark:text-gray-100 mt-6 mb-3 border-b">Recent Posts</h1>
       <ol style={{ listStyle: `none` }}>
         {posts.map((post, index) => {
           return (

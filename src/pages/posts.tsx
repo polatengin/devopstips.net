@@ -12,7 +12,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Posts" />
-      <h1 className="text-lg text-gray-600 dark:text-gray-100 mb-3 border-b">All Posts</h1>
+      <h1 className="text-lg text-gray-700 dark:text-gray-100 mb-3 border-b">All Posts</h1>
       <ol style={{ listStyle: `none` }}>
         {posts.map((post, index) => {
           return (

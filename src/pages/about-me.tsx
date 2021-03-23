@@ -9,7 +9,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="About Me" />
-      <article className="my-6 text-gray-700 dark:text-gray-100" itemScope itemType="http://schema.org/Article">
+      <article className="my-6 text-gray-800 dark:text-gray-100" itemScope itemType="http://schema.org/Article">
         <h2 className="text-3xl">👋 Hi there</h2>
         <div className="my-6 h-1 w-full border-b"></div>
         <img className="rounded-full border w-44 h-44 mb-6" src="https://avatars.githubusercontent.com/u/118744" />
