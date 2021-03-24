@@ -1,6 +1,6 @@
 ---
 path: "create-host-and-share-docker-images-with-github-packages"
-title: "Create, Host and Share Docker Images with GitHub Actions"
+title: "Create, Host and Share Docker Images with GitHub Packages"
 description: "After the rise of cloud, and rise of microservices approaches, modular, plug-and-play and containerized applications are getting more attention.<br /><br />So, literally hundreds of thousands software engineers are working on projects that built with multiple containerized pieces, all around the world.<br /><br />If you're using GitHub and wanted a place to store and serve Docker Images for your project, you can easily go and use GitHub Packages, it's free and super easy to use 🥳"
 date: "2021-03-30"
 time: "11 mins"
