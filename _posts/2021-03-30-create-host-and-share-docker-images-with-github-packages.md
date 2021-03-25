@@ -109,7 +109,7 @@ After login to _GitHub Container Registry_, we can easily pull and consume image
 ```bash
 echo ${GITHUB_PAT} | docker login ghcr.io -u ${GITHUB_USERNAME} --password-stdin
 
-docker run -d -it copenhagen
+docker run -d -it ghcr.io/polatengin/copenhagen:latest
 ```
 
 _* Don't forget to set your username and PAT to the GITHUB&#95;USERNAME and GITHUB&#95;PAT variables_
