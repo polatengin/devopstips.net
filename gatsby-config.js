@@ -79,7 +79,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `DevOps Tips and Tricks`,
-        short_name: `devops.tips`,
+        short_name: `devopstips.net`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4D85D1`,
