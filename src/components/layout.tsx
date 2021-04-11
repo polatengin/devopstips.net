@@ -31,8 +31,8 @@ export default ({ children }) => {
             </h1>
             <div className="flex-grow flex justify-end items-center">
               <Link to="/posts" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900">Posts</Link>
-              <a href="https://github.com/polatengin/devops.tips/issues" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900 flex items-baseline" rel="noreferrer">Issues <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
-              <a href="https://github.com/polatengin/devops.tips" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900 flex items-baseline" rel="noreferrer">Contribute <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
+              <a href="https://github.com/polatengin/devopstips.net/issues" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900 flex items-baseline" rel="noreferrer">Issues <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
+              <a href="https://github.com/polatengin/devopstips.net" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900 flex items-baseline" rel="noreferrer">Contribute <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
               <button className="ml-4 w-16 h-8 hidden md:flex items-center bg-gray-100 dark:bg-gray-900 outline-none focus:outline-none rounded-full shadow-inner" aria-label="Toggle Theme" onClick={() => {
                 localStorage.setItem("theme", theme !== "dark" ? "dark" : "light" );
                 setTheme(localStorage.getItem("theme"));
