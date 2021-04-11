@@ -8,16 +8,16 @@
 
 ![Netlify](https://img.shields.io/netlify/77f165dd-c2b0-4bc6-9627-9d47fb9c0076)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/polatengin/devops.tips)
+![GitHub repo size](https://img.shields.io/github/repo-size/polatengin/devopstips.net)
 
-![Lines of code](https://img.shields.io/tokei/lines/github/polatengin/devops.tips)
+![Lines of code](https://img.shields.io/tokei/lines/github/polatengin/devopstips.net)
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/polatengin/devops.tips)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/polatengin/devopstips.net)
 
 ![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fdevopstips.net)
 
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787576626-2de2310daed8f8bed6e03c1c)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/polatengin/devops.tips)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/polatengin/devopstips.net)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/polatengin/devops.tips)
+![GitHub last commit](https://img.shields.io/github/last-commit/polatengin/devopstips.net)
