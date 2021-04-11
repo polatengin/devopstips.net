@@ -19,7 +19,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <header className="mb-4">
           <h1 itemProp="headline" className="text-3xl">{ post.frontmatter.title }</h1>
           <p className="my-4 italic flex items-center"><TimeIcon className="w-5 h-5 inline mr-1" /> ~ { post.frontmatter.time } read · published @ { post.frontmatter.date }</p>
-          <a className="inline-flex items-center text-blue-500" href={`https://github.com/polatengin/devops.tips/blob/master/_posts/${ fileName }`} target="_blank"><GitHubIcon className="w-4 h-4 inline mr-1" /> Edit this page on GitHub</a>
+          <a className="inline-flex items-center text-blue-500" href={`https://github.com/polatengin/devopstips.net/blob/master/_posts/${ fileName }`} target="_blank"><GitHubIcon className="w-4 h-4 inline mr-1" /> Edit this page on GitHub</a>
         </header>
         <section className="article-body" dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
       </article>
