@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Engin Polat <engin.polat@microsoft.com>",
   "bugs": {
-    "url": "https://github.com/polatengin/devops.tips/issues"
+    "url": "https://github.com/polatengin/devopstips.net/issues"
   },
   "dependencies": {
     "autoprefixer": "10.2.5",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/polatengin/devops.tips#readme",
+  "homepage": "https://github.com/polatengin/devopstips.net#readme",
   "keywords": [
     "azure",
     "devops",
@@ -53,7 +53,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polatengin/devops.tips.git"
+    "url": "git+https://github.com/polatengin/devopstips.net.git"
   },
   "scripts": {
     "build": "NODE_ENV=production npx tailwindcss-cli build ./src/index.css -o ./src/bundle.css && gatsby build",
