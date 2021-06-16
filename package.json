@@ -38,7 +38,7 @@
     "tailwindcss": "2.1.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "joi": "17.4.0",
   },
   "homepage": "https://github.com/polatengin/devopstips.net#readme",
   "keywords": [
