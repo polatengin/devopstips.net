@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "joi": "17.4.0",
+    "prettier": "2.3.0"
   },
   "homepage": "https://github.com/polatengin/devopstips.net#readme",
   "keywords": [
