@@ -57,9 +57,10 @@
   },
   "scripts": {
     "build": "NODE_ENV=production npx tailwindcss-cli build -i ./src/index.css -o ./src/bundle.css && gatsby build",
+    "prod": "npm run clean && npm run build && npx http-server ./public -p 8000",
     "develop": "npx tailwindcss-cli build -i ./src/index.css -o ./src/bundle.css && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "npm run prod",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   }
