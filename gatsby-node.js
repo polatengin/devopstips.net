@@ -145,7 +145,7 @@ exports.onPostBuild = async ({ graphql }) => {
       return {
         ...e.node.frontmatter,
         url: `https://devopstips.net/${e.node.frontmatter.path}`,
-        path: `https://github.com/polatengin/devopstips.net/blob/master/_posts/${e.node.fileAbsolutePath.substring(e.node.fileAbsolutePath.lastIndexOf("/") + 1)}`
+        path: `https://raw.githubusercontent.com/polatengin/devopstips.net/master/_posts/${e.node.fileAbsolutePath.substring(e.node.fileAbsolutePath.lastIndexOf("/") + 1)}`
       };
     });
 
