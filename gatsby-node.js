@@ -118,3 +118,37 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `)
 };
+
+exports.onPostBuild = async ({ graphql }) => {
+  await graphql(`
+    {
+      posts: allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              path
+              date
+              title
+              description
+            }
+            fileAbsolutePath
+          }
+        }
+      }
+    }
+  `).then(result => {
+    const postsPath = "./public/api";
+
+    if (!fs.existsSync(postsPath)) fs.mkdirSync(postsPath);
+
+    const posts = result.data.posts.edges.map(e => {
+      return {
+        ...e.node.frontmatter,
+        url: `https://devopstips.net/${e.node.frontmatter.path}`,
+        path: `https://github.com/polatengin/devopstips.net/blob/master/_posts/${e.node.fileAbsolutePath.substring(e.node.fileAbsolutePath.lastIndexOf("/") + 1)}`
+      };
+    });
+
+    fs.writeFileSync(`${postsPath}/posts.json`, JSON.stringify(posts));
+  });
+};
