@@ -109,4 +109,6 @@ There are some steps that can easily automated;
 
 - _Documentation:_ Maintaining documentation is a very tedious process, so the more automated the process, the better. For example, if we are developing a documented API, we can automatically generate it as OpenAPI.
 
+To generate documentation from code, we can use a code generator, such as Angular's [ngDoc](https://github.com/angular/angular.js/wiki/Contribution%3A-Writing-AngularJS-Documentation) tool or Swagger's code generator. These tools can generate documentation based on comments in the source code. You can then use a tool such as Swagger UI to display the documentation.
+
 - _Formatting the code:_ Checking the formatting of the code can also be automated and merging can be blocked if the format is not correct. Check the documentation format to avoid comments on the Pull Request, such as "this line is too long", "this method is too large", "this class is not well formatted", "variable name doesn't follow naming convention".
