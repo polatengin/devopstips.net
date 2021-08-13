@@ -1,7 +1,7 @@
 ---
 path: "good-practices-for-creating-pull-requests"
 title: "Good practices for creating Pull Requests"
-description: "Before Git, the open source community used mailing lists for collaboration. Because of this, people had to write very long emails in order to justify their work. This caused a lot of friction because people had to spend a lot of time to write long emails and wait for a response from someone else.<br /><br />With Git, your changes are local and you can push changes as soon as they are ready. This leads to more efficient and focused discussions"
+description: "Before Git, the open source community used mailing lists for collaboration. Because of this, people had to write very long emails in order to justify their work. This caused a lot of friction because people had to spend a lot of time to write long emails and wait for a response from someone else.<br /><br />With Git, your changes are local and you can push changes as soon as they are ready. This leads to more efficient and focused discussions."
 date: "2021-08-03"
 time: "18 mins"
 author:
