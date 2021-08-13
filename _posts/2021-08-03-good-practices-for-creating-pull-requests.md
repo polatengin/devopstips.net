@@ -69,9 +69,17 @@ It is important that you review your pull request before asking someone else to 
 
 Also, check out the guidelines below to make sure that your code is ready for review, such as, tests, documentation and formatting.
 
-Sometimes, people have trouble reviewing their own code. It’s a totally normal thing! We all have blind spots. When people start contributing to open source projects, they often need someone else to review their work before they submit it. This is because they are not used to the style and often don’t catch their own mistakes. Even experienced developers frequently need review!
+Sometimes, people have trouble reviewing their own code. It's a totally normal thing! We all have blind spots. When people start contributing to open source projects, they often need someone else to review their work before they submit it. This is because they are not used to the style and often don't catch their own mistakes. Even experienced developers frequently need review!
 
-### Make small Pull Requests
+### Make sure the code builds and works
+
+When you are going to contribute to an open source project, please do all testing on your local machine. Yes, it works on my machine is the worst excuse for not testing. It is unreliable and leads to frustration. If it doesn't work on your machine, it's unlikely to work on other machines as well.
+
+If you don't have access to a machine that runs the software you're working with, it's your responsibility to find one — or build a virtual machine using a service like Vagrant. There's no excuse for not testing.
+
+It is also important to test the code on different environments as much as possible before sending a Pull Request. An important thing to check is that the page is working and that user interaction is possible.
+
+### Make small Pull Requests (and often)
 
 We value quickness and agility in our team. In order to achieve this, we need effective communication and reviews in order to be able to close Pull Requests quickly. We do not enjoy when people do not follow the team's process and raise comments in an asynchronous manner.
 
