@@ -99,7 +99,11 @@ Writing a complete description in the pull request will help provide context for
 
 ### Automate everything possible
 
-The recommendation to automate as much as possible works in many areas, and also in Pull Requests. Automation will help eliminate certain manual processes that we probably forget when we are in a rush to complete a functionality, deploy to production
+Automation is a key part of good _DevOps_ practice. Ideally, automation leads to an increase in quality and consistency. It also helps to reduce the amount of time it takes to deploy new code to production.
+
+When you have automated steps in place, you can easily deploy your app and move on to the next task.
+
+There are some steps that can easily automated;
 
 - _Tests:_ Tests should run automatically whenever a Pull Request is opened or updated. The branch should not be merged unless the tests pass.
 
