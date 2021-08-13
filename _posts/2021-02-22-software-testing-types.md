@@ -17,7 +17,7 @@ There are different types of tests that we can use and implement in the CI/CD pi
 
 ![Software Testing Types screenshot](../_static/assets/2021/02/software-testing-types-0.png)
 
-_Some of the most known and used test types_
+Some of the most known and used test types;
 
 #### Unit Tests
 
