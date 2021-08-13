@@ -93,7 +93,7 @@ The smaller the Pull Requests, the better.
 
 ### Write a good description
 
-The description written in the pull request is one of the most important and useful parts of reviewing it. If someone reviewing the code sees that hundreds of lines have been added, dozens of lines deleted, and multiple files have been renamed, they probably don’t know the reason for these changes, so in order to help them review your code, please leave a good description to explain what you are doing.
+The description written in the pull request is one of the most important and useful parts of reviewing it. If someone reviewing the code sees that hundreds of lines have been added, dozens of lines deleted, and multiple files have been renamed, they probably don't know the reason for these changes, so in order to help them review your code, please leave a good description to explain what you are doing.
 
 Writing a complete description in the pull request will help provide context for the review.
 
