@@ -2,7 +2,7 @@
   "name": "devops-tips",
   "private": true,
   "description": "DevOps Tips and Tricks Blog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Engin Polat <engin.polat@microsoft.com>",
   "bugs": {
     "url": "https://github.com/polatengin/devopstips.net/issues"
