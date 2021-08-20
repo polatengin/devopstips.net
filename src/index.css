@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
+  .gradient-text {
+    background: -webkit-linear-gradient(left, #ae1ff8, #ff7c33, #1eaaf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   section.article-body table {
     @apply border-collapse border;
   }
