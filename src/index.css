@@ -2,87 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-section.article-body table {
-  @apply border-collapse border;
-}
-
-section.article-body table th, section.article-body table td {
-  @apply border px-4 py-2;
-}
-
-section.article-body table thead tr {
-  @apply bg-gray-100 dark:bg-gray-900
-}
-
-section.article-body h1 {
-  @apply text-3xl;
-}
-
-section.article-body h2 {
-  @apply text-2xl;
-}
-
-section.article-body h3 {
-  @apply text-xl;
-}
-
-section.article-body h4 {
-  @apply text-lg;
-}
-
-section.article-body p {
-  @apply my-4;
-}
-
-section.article-body a {
-  @apply text-blue-500 hover:underline;
-}
-
-section.article-body ul {
-  @apply ml-8 list-disc;
-}
-
-section.article-body blockquote {
-  @apply m-0 px-4 py-1 bg-gray-100 border-l-8 border-yellow-500 rounded;
-}
-
-section.article-body div.gatsby-highlight {
-  @apply rounded text-xs;
-}
-
-section.article-body div.gatsby-highlight pre {
-  @apply bg-gray-100 rounded;
-}
-
-:not(pre) > code[class*="language-"] {
-  @apply text-sm rounded bg-gray-100 px-2 py-1 !important;
-}
-
-.header-link.before {
-  top: 0.4em !important;
-}
-
-.category-azure-devops {
-  @apply text-white;
-  background-color: #4d85d1;
-}
-
-.category-azure-cli {
-  @apply text-white;
-  background-color: #678b8f;
-}
-
-.category-general {
-  @apply text-white;
-  background-color: #509b4f;
-}
-
-.category-how-to {
-  @apply text-white;
-  background-color: #eb502b;
-}
-
-.category-scenario {
-  @apply text-white;
-  background-color: #552beb;
+@layer utilities {
+  section.article-body table {
+    @apply border-collapse border;
+  }
+  section.article-body table th, section.article-body table td {
+    @apply border px-4 py-2;
+  }
+  section.article-body table thead tr {
+    @apply bg-gray-100 dark:bg-gray-900
+  }
+  section.article-body h1 {
+    @apply text-3xl;
+  }
+  section.article-body h2 {
+    @apply text-2xl;
+  }
+  section.article-body h3 {
+    @apply text-xl;
+  }
+  section.article-body h4 {
+    @apply text-lg;
+  }
+  section.article-body p {
+    @apply my-4;
+  }
+  section.article-body a {
+    @apply text-blue-500 hover:underline;
+  }
+  section.article-body ul {
+    @apply ml-8 list-disc;
+  }
+  section.article-body blockquote {
+    @apply m-0 px-4 py-1 bg-gray-100 border-l-8 border-yellow-500 rounded;
+  }
+  section.article-body div.gatsby-highlight {
+    @apply rounded text-xs;
+  }
+  section.article-body div.gatsby-highlight pre {
+    @apply bg-gray-100 rounded;
+  }
+  :not(pre) > code[class*="language-"] {
+    @apply text-sm rounded bg-gray-100 px-2 py-1 !important;
+  }
+  .header-link.before {
+    top: 0.4em !important;
+  }
+  .category-azure-devops {
+    @apply text-white;
+    background-color: #4d85d1;
+  }
+  .category-azure-cli {
+    @apply text-white;
+    background-color: #678b8f;
+  }
+  .category-general {
+    @apply text-white;
+    background-color: #509b4f;
+  }
+  .category-how-to {
+    @apply text-white;
+    background-color: #eb502b;
+  }
+  .category-scenario {
+    @apply text-white;
+    background-color: #552beb;
+  }
 }
