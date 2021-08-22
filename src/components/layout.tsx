@@ -46,7 +46,7 @@ export default ({ children }) => {
           <aside className="w-screen md:w-56 flex-none text-gray-800 dark:text-white px-3 md:px-6 py-6 border-t md:border-t-0 md:border-r">
             <h2 className="text-lg">Tips and Tricks about most popular DevOps softwares, such as, Azure DevOps, GitHub, Linux, Docker, Kubernetes, etc.</h2>
             <p><a href="https://twitter.com/devops_tips" className="inline-flex items-center mt-6" target="_blank" rel="noreferrer"><TwitterIcon className="w-6 h-6 text-blue-500 inline mr-2" /> @devops_tips</a></p>
-            <p><a href="/sitemap.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
+            <p><a href="/sitemap/sitemap-index.xml" className="inline-flex items-center mt-6" target="_blank"><RSSIcon className="w-6 h-6 text-blue-500 inline mr-2" /> RSS</a></p>
           </aside>
           <section className="flex-1 m-4 md:mt-6 ml-4 md:ml-6 xl:mr-0">
             {children}
