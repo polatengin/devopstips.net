@@ -26,9 +26,9 @@ export default ({ children }) => {
       <div className="dark:bg-gray-800">
         <header className="px-1 md:px-6 py-2 h-26 md:h-20 border-b text-gray-800 dark:text-white shadow-sm">
           <div className="max-w-screen-xl mx-auto h-full flex flex-col md:flex-row items-center">
-            <h1 className="text-3xl lg:text-3xl my-2 md:my-0 gradient-text">
+            <h2 className="text-3xl lg:text-3xl my-2 md:my-0 gradient-text">
               <Link to="/" className="flex items-center"><img src="/favicon.svg" width="40" height="40" className="w-10 h-10 inline mr-1" alt="DevOpsTips Logo" />{ site.siteMetadata.title }</Link>
-            </h1>
+            </h2>
             <div className="flex-grow flex justify-end items-center">
               <Link to="/posts" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900">Posts</Link>
               <a href="https://github.com/polatengin/devopstips.net/issues" target="_blank" className="ml-2 lg:ml-4 md:py-2 md:px-4 py-1 px-2 text-md lg:text-xl hover:bg-gray-100 dark:hover:bg-gray-900 flex items-baseline" rel="noreferrer">Issues <ExternalLinkIcon className="ml-1 inline w-4 h-4" /></a>
