@@ -79,13 +79,33 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `DevOps Tips and Tricks`,
-        short_name: `devopstips.net`,
+        short_name: `devopstips`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4D85D1`,
         display: `standalone`,
+        orientation: `portrait`,
         icon: `_static/logo.svg`,
         legacy: false,
+        shortcuts: [{
+          name: `Posts`,
+          description: `Posts List`,
+          url: `https://devopstips.net/posts`,
+          icons: [{
+            src: `_static/logo.svg`,
+            type: `image/svg+xml`,
+            purpose: `any`
+          }]
+        }, {
+          name: `Issues`,
+          description: `GitHub Issues`,
+          url: `https://github.com/polatengin/devopstips.net/issues`,
+          icons: [{
+            src: `_static/logo.svg`,
+            type: `image/svg+xml`,
+            purpose: `any`
+          }]
+        }]
       },
     },
     `gatsby-plugin-react-helmet`,
