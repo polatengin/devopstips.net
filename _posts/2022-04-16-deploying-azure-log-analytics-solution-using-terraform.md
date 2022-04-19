@@ -81,4 +81,5 @@ resource "azurerm_log_analytics_solution" "solution" {
 }
 ```
 
-> _Note_: Before running Azure CLI commands, Log Analytics Solution Extension should be installed; `az extension add --name log-analytics-solution`
+> _Note_: Before running [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/) commands, [Log Analytics Solution Extension](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) should be installed;
+> az extension add --name log-analytics-solution
