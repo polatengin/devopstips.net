@@ -13,7 +13,7 @@ tags: [ "azure", "terraform", "azure-log-analytics", "azure-log-analytics-soluti
 ---
 If it's needed to deploy [Azure Log Analytics Solution](https://docs.microsoft.com/en-us/cli/azure/monitor/log-analytics/solution) using [Terraform](https://www.terraform.io/), you can use the following [Terraform](https://www.terraform.io/) structure,
 
-```terraform
+```bash
 resource "azurerm_resource_group" "rg" {
   name     = "rg-sample"
   location = "westus3"
@@ -66,7 +66,7 @@ az monitor log-analytics solution list --resource-group ${RESOURCE_GROUP_NAME}
 
 When the command above is executed, it will list the installed [Azure Log Analytics Solutions](https://docs.microsoft.com/en-us/cli/azure/monitor/log-analytics/solution), and it's possible to create a _Terraform Module_ using the output of the command,
 
-```terraform
+```bash
 resource "azurerm_log_analytics_solution" "solution" {
   solution_name         = "{Product name from the command output}"
   location              = "${azurerm_resource_group.rg.location}"
