@@ -1,7 +1,7 @@
 ---
 path: "deploying-azure-log-analytics-solution-using-terraform"
 title: "Deploying Azure Log Analytics Solution Using Terraform"
-description: ""
+description: "Unfortunately, list of Azure Log Analytics Solutions is not available in the Terraform provider 😟<br /><br />Official Terraform Resource Provider page for Azure Log Analytics Solution displays only ContainerInsights example<br /><br />If there is already an Azure Subscription, that has Azure Log Analytics Solutions installed, and it's needed to create a Terraform Module out of it, then the Azure CLI command has to be run and the Terraform Module has to be created manually."
 date: "2022-04-16"
 time: "6 mins"
 author:
