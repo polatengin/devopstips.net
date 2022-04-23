@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
+  @keyframes move-bg {
+    to {
+      background-position: 400% 0;
+    }
+  }
   .gradient-text {
     background: -webkit-linear-gradient(left, #a100ff,#f95c3c,#2e7dff);
     -webkit-background-clip: text;
