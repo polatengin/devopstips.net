@@ -8,7 +8,7 @@
     "url": "https://github.com/polatengin/devopstips.net/issues"
   },
   "dependencies": {
-    "autoprefixer": "10.4.4",
+    "autoprefixer": "10.4.5",
     "gatsby": "4.12.1",
     "gatsby-plugin-feed": "4.12.1",
     "gatsby-plugin-google-gtag": "4.12.1",
