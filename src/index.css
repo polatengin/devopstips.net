@@ -14,6 +14,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400%;
+    animation: move-bg 12s infinite linear;
   }
   section.article-body table {
     @apply border-collapse border;
