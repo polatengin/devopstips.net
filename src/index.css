@@ -9,6 +9,7 @@
     }
   }
   .gradient-text {
+    color: transparent;
     background: -webkit-linear-gradient(left, #a100ff,#f95c3c,#2e7dff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
